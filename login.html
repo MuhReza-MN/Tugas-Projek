@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login Page</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+	<link href="login.css" rel="stylesheet">
+</head>
+
+<body>
+	<center>
+		<h1 class="header"> <i class="fa fa-globe" aria-hidden="true"></i>
+			Project Website PHP dan MySQL | By. Muhammad Reza Mulzi Nur
+			<i class="fa fa-globe" aria-hidden="true"></i>
+		</h1>
+		<span class="space"> &nbsp; </span>
+		<form action="login.php?akun=1" method="post">
+			<table border="1">
+				<tr>
+					<td><i class="fa fa-user" aria-hidden="true"></i> Username</td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td><i class="fa fa-key" aria-hidden="true"></i> Password</td>
+					<td><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style="text-align: center;"><input type="submit" name="login" value="Log In" id="btn"></td>
+				</tr>
+			</table>
+		</form>
+	</center>
+</body>
+
+</html>
